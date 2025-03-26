@@ -1,0 +1,113 @@
+/* Establece una imagen de fondo para un elemento con la clase .imagen */
+.imagen {
+    background-image: url(/IMG/header.jpg); /* Imagen de fondo */
+    color: aliceblue; /* Color del texto */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    width: 100%; /* Ancho completo */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+.textofoto{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black; /* Cambia el color si es necesario */
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* Establece un margen izquierdo fijo de 100px y margen derecho automático */
+.margenes {
+    margin-left: 100px;
+    margin-right: auto; /* El margen derecho se ajusta automáticamente */
+}
+
+/* Similar a .margenes pero con margen derecho de 150px */
+.margenes1 {
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+/* Igual que .margenes1 (posiblemente redundante) */
+.margenes2 {
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+/* Define un tamaño del 50% tanto en ancho como en alto para imágenes */
+.imagenes {
+    height: 50%;
+    width: 50%;
+}
+
+/* Aplica un fondo de color azul turquesa */
+.fondoazul {
+    background-color: rgb(43, 160, 162);
+}
+
+/* Establece el color del texto en bisque */
+.color {
+    color: bisque;
+}
+
+/* Aplica márgenes y centra el texto */
+.margen {
+    margin-left: 100px;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Aplica márgenes más específicos y un espacio en la parte superior e inferior */
+.margen3 {
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+/* Variante de margen3 con un margen superior menor */
+.margen4 {
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+/* Aplica un fondo negro y centra el texto */
+.fondonegro {
+    background-color: black;
+    text-align: center;
+}
+
+/* Establece el color del texto en blanchedalmond */
+.texto {
+    color: blanchedalmond;
+}
+
+/* Aplica un fondo gris oscuro */
+.fondogris {
+    background-color: rgb(43, 40, 40);
+}
+/* Pantallas pequeñas: Móviles (max-width de 576px) */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Pantallas medianas: Tablets verticales (max-width de 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Pantallas grandes: Tablets horizontales o laptops pequeñas (max-width de 992px) */
+@media (max-width: 992px) {
+    body {
+        font-size: 18px;
+    }
+}
